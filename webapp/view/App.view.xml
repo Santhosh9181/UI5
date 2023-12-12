@@ -24,6 +24,7 @@
             >
             <headerContent>
             <HBox id="w">
+            <Button id="idHome" icon="sap-icon://home "></Button>
             <Title id="o" text="{title>/Title} {title>/Year}" class="sapui" textAlign="Left" textDirection="LTR">
                 <layoutData>
                     <layout:GridData id="_IDGenGridData3" span="L2 M2 S2"/>
@@ -40,9 +41,6 @@
                         id="idAppTable"
 						rows="{/Schedule}"
                         rowActionCount="5"
-                        visibleRowCount="15"
-                        
-
                     >
                         <table:columns>
                             <table:Column id="idTableCol1" filtered="true" autoResizable="true" width="15rem">
@@ -119,20 +117,23 @@
                 <Panel id="idPanelgrp" height="10rem">
                     <content>
                     <layout:Grid id="idGrid1">
-                    <HBox id="idbox1">
-                        <layoutData>
+                    <HBox id="idbox1" height="5rem" class="solid">
+                        <!-- <layoutData>
                         <layout:GridData id="_IDGenGridData4" span="L2 M2 S2"></layout:GridData>
-                        </layoutData>
-                        <Text id="_IDGenText1" text="e"></Text>
+                        </layoutData> -->
+                        <Text id="_IDGenText1" text="e" ></Text>
                     </HBox>
                     <HBox id="idbox2" backgroundDesign="Solid" 
-                          class='sapUiLargeMarginTop sapUiLargeMarginBottom sapUiLargeMarginBegin sapUiLargeMarginEnd'
-                          displayInline="true"
+                          class='solid'
+                          
+                          height="5rem"
                           >
-                        <layoutData>
+                        <!-- <layoutData>
                         <layout:GridData id="_IDGenGridData5" span="L4 M4 S4" indent="L4 M4 S4"></layout:GridData>
-                        </layoutData>
-                         <Text id="_IDGenText2" text="e"></Text>
+                        class='sapUiLargeMarginTop sapUiLargeMarginBottom sapUiLargeMarginBegin sapUiLargeMarginEnd solid'
+                        displayInline="true"
+                        </layoutData> -->
+                         <Text id="_IDGenText2" text="e" ></Text>
                     </HBox>
                     </layout:Grid>
                     </content>
