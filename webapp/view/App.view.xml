@@ -1,0 +1,148 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:statusindicator="sap.suite.ui.commons.statusindicator" xmlns:layout="sap.ui.layout"
+    xmlns:table="sap.ui.table"
+    controllerName="samplebasics.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:tnt="sap.tnt"
+    height="100%"
+    width="100%"
+    class="side-navigation-demo"
+>
+    <!-- <Shell
+        id="_IDGenShell1"
+        showLogout="true"
+    >
+        <App
+            id="app"
+            height="100%"
+        > -->
+            <Page
+                id="idAppPage"
+                showHeader="true"
+            >
+            <headerContent>
+            <HBox id="w">
+            <Title id="o" text="{title>/Title} {title>/Year}" class="sapui" textAlign="Left" textDirection="LTR">
+                <layoutData>
+                    <layout:GridData id="_IDGenGridData3" span="L2 M2 S2"/>
+                </layoutData>
+            </Title>
+		    <ToggleButton id="_IDGenButton1" tooltip="Edit" icon="$sap-icon://edit" pressed="true"/>
+            <layoutData>
+            <layout:GridData id="_IDGenGridData2" spanM="6" ></layout:GridData>
+            </layoutData>
+            </HBox>
+            </headerContent>
+                <content>
+                    <table:Table
+                        id="idAppTable"
+						rows="{/Schedule}"
+                        rowActionCount="5"
+                        visibleRowCount="15"
+                        
+
+                    >
+                        <table:columns>
+                            <table:Column id="idTableCol1" filtered="true" autoResizable="true" width="15rem">
+                                <Label
+                                    id="idCol1Label"
+                                    text="Date"
+                                />
+                                <table:template>
+                                    <DatePicker
+                                        id="idCol1"
+                                        value="{Date}"
+                                        editable="{title>/edit}"
+                                        displayFormat="MMM d, YYYY"
+                                    />
+                                </table:template>
+                            </table:Column>
+                            <table:Column id="idTableCol2" autoResizable="true" width="12rem">
+                                <Label
+                                    id="idCol2Label"
+                                    text="Team A"
+                                />
+                                <table:template>
+                                    <Input
+                                        id="idCol2"
+                                        value="{TeamA}"
+                                        editable="{title>/edit}"
+                                    />
+                                </table:template>
+                            </table:Column>
+                            <table:Column id="idTableCol3" autoResizable="true" width="12rem">
+                                <Label
+                                    id="idCol3Label"
+                                    text="Team B"
+                                />
+                                <table:template>
+                                    <Input
+                                        id="idCol3"
+                                        value="{TeamB}"
+                                        editable="{title>/edit}"
+                                    />
+                                </table:template>
+                            </table:Column>
+                            <table:Column id="idTableCol4">
+                                <Label
+                                    id="idCol4Label"
+                                    text="Venue"
+                                />
+                                <table:template>
+                                    <Link
+                                        id="idCol4"
+                                        text="{Venue}"
+                                        ariaHasPopup="Dialog"
+                                    />
+                                </table:template>
+                            </table:Column>
+                            <table:Column id="idTableCol5">
+                                <Label
+                                    id="idCol5Label"
+                                    text="Status"
+                                />
+                                <table:template>
+                                    <core:Icon
+                                        id="idCol5"
+                                        src="{ path : 'Date' , formatter: '.formatter.checkMatch' }"
+                                        color="#30914c" 
+                                        
+                                        
+                                    />
+                                </table:template>
+                            </table:Column>
+                        </table:columns>
+                    </table:Table>
+                </content>
+                <Panel id="idPanelgrp" height="10rem">
+                    <content>
+                    <layout:Grid id="idGrid1">
+                    <HBox id="idbox1">
+                        <layoutData>
+                        <layout:GridData id="_IDGenGridData4" span="L2 M2 S2"></layout:GridData>
+                        </layoutData>
+                        <Text id="_IDGenText1" text="e"></Text>
+                    </HBox>
+                    <HBox id="idbox2" backgroundDesign="Solid" 
+                          class='sapUiLargeMarginTop sapUiLargeMarginBottom sapUiLargeMarginBegin sapUiLargeMarginEnd'
+                          displayInline="true"
+                          >
+                        <layoutData>
+                        <layout:GridData id="_IDGenGridData5" span="L4 M4 S4" indent="L4 M4 S4"></layout:GridData>
+                        </layoutData>
+                         <Text id="_IDGenText2" text="e"></Text>
+                    </HBox>
+                    </layout:Grid>
+                    </content>
+                </Panel>
+                <footer>
+                    <OverflowToolbar id="id_MainPage_Footer">
+                    <Button id="idBtnAdd" icon="$sap-icon://add"  ></Button>
+                    </OverflowToolbar>
+                </footer>
+            </Page>
+        <!-- </App>
+    </Shell> -->
+</mvc:View>

@@ -1,0 +1,13 @@
+{ "Tile": [
+    {   "id": "idTile1",
+        "Header": "Table Example",
+        "Subheader": "WCSchedule 2023",
+        "Icon": "sap-icon://competitor"
+    },
+    {   
+        "id": "idTile2",
+        "Header": "WCSchedule 2023",
+        "Subheader": "WCSchedule 2023",
+        "Icon": ""
+    }
+]}
