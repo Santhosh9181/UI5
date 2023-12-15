@@ -98,7 +98,7 @@
         },
         "RouteApp": {
           "viewType": "XML",
-          "transition": "slide",
+          "transition": "show",
           "viewId": "App",
           "viewName": "App",
           "viewLevel": 1

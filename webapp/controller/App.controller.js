@@ -1,15 +1,17 @@
 sap.ui.define(
     [
-        "sap/ui/core/mvc/Controller",
         "sap/ui/model/json/JSONModel",
         "sap/ui/core/Core",
-        "samplebasics/formatter/formatter"
+        "samplebasics/formatter/formatter",
+        "samplebasics/controller/BaseController"
+
     ],
-    function(Controller,JSONModel,Core,formatter) {
+    function(JSONModel,Core,formatter,BaseController) {
       "use strict";
   
-      return Controller.extend("samplebasics.controller.App", {
+      return BaseController.extend("samplebasics.controller.App", {
         formatter: formatter,
+
         onInit() {
           var i = {"Title": "Cricket World Cup Schedule",
                    "Year": "2023",
@@ -23,7 +25,19 @@ sap.ui.define(
           this.getView().setModel( new JSONModel(i),"title");
           var global = Core.getModel("oModelGlobal");
           // alert("App");
+        },
+        onPressHome: function(){
+          this.returnHome();
         }
+        // BaseController: BaseController
+        // function(){
+        //   var that = this;
+        //   BaseController.returnHome();
+        // } 
+        // function() {
+        //   this.getOwnerComponent().getRouter().navTo("RouteTile");
+
+        // }
       });
     }
   );

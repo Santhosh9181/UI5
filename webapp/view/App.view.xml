@@ -26,15 +26,15 @@
             >
             <headerContent>
             <HBox id="w">
-            <Button id="idHome" icon="sap-icon://home "></Button>
-            <Title id="o" text="{title>/Title} {title>/Year}" class="sapui" textAlign="Left" textDirection="LTR">
-                <layoutData>
+            <Button id="idHome" icon="sap-icon://home" press="returnHome"></Button>
+            <Title id="o" text="{title>/Title} {title>/Year}" >
+                <!-- <layoutData>
                     <layout:GridData id="_IDGenGridData3" span="L2 M2 S2"/>
-                </layoutData>
+                </layoutData> -->
             </Title>
 		    <ToggleButton id="_IDGenButton1" tooltip="Edit" icon="$sap-icon://edit" pressed="true"/>
             <layoutData>
-            <layout:GridData id="_IDGenGridData2" spanM="6" ></layout:GridData>
+            <!-- <layout:GridData id="_IDGenGridData2" spanM="6" ></layout:GridData> -->
             </layoutData>
             </HBox>
             </headerContent>
