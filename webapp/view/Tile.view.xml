@@ -1,6 +1,5 @@
 <mvc:View
     controllerName="samplebasics.controller.Tile"
-    xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
     height="100%"
@@ -34,8 +33,8 @@
             >
                 <TileContent
                     id="_IDGenTileContent1"
-                    unit="EUR"
-                    footer="Current Quarter"
+                    unit="{Unit}"
+                    footer="{Footer}"
                 >
                     <ImageContent
                         id="_IDGenImageContent1"

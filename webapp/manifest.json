@@ -86,6 +86,11 @@
           "name": "RouteTile",
           "pattern": "",
           "target": "TargetTile"
+        },
+        {
+          "name": "RouteBooking",
+          "pattern": "RouteBooking",
+          "target": "RouteBooking"
         }
       ],
       "targets": {
@@ -102,6 +107,14 @@
           "viewId": "App",
           "viewName": "App",
           "viewLevel": 1
+        },
+        "RouteBooking": {
+          "viewType": "XML",
+          "transition": "show",
+          "viewId": "Booking",
+          "viewName": "Booking",
+          "viewLevel": 2
+
         }
       }
     },

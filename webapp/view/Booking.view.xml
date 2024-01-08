@@ -1,0 +1,22 @@
+<mvc:View 
+    controllerName="samplebasics.controller.Booking"
+    xmlns:mvc="sap.ui.core.mvc" 
+    displayBlock="true"
+    xmlns="sap.m"
+	height="100%">
+    <Page id="page" title="Booking">
+    <headerContent>
+    <Title id="HeaderTitle" text="Booking" textDirection="LTR" ></Title>
+    </headerContent>
+    <content>
+    <HBox id="MainBox" height="100%" width="100%" class="sapUiTinyMarginBegin sapUiTinyMarginEnd">
+    <HBox id="SelectionBox" width="49%" class="solid sapUiTinyMarginTop sapUiTinyMarginBottom sapUiTinyMarginBegin sapUiTinyMarginEnd">
+    <HBox id="ClassABox" class="solid" height="33%"></HBox>
+    <HBox id="ClassBBox" class="solid" height="33%"></HBox>
+    <HBox id="ClassCBox" class="solid" height="33%"></HBox>
+    </HBox>
+    <HBox id="SummaryBox" width="49%" class="solid sapUiTinyMarginTop sapUiTinyMarginBottom sapUiTinyMarginBegin sapUiTinyMarginEnd"></HBox>
+    </HBox>
+    </content>
+    </Page>
+</mvc:View>

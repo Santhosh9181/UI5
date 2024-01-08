@@ -20,6 +20,9 @@ sap.ui.define(
                             break;
                         case "WCSchedule 2023":
                             break;
+                        case "Pro Kabbadi":
+                            this.getOwnerComponent().getRouter().navTo("RouteBooking");
+                            break;
                     }
                 }
             }

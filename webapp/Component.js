@@ -30,10 +30,6 @@ sap.ui.define([
 
                 // set the device model
                 this.setModel(models.createDeviceModel(), "device");
-
-                var global = { sysdate : '11/12/2023' };
-                var oModel = new sap.ui.model.json.JSONModel(global);
-                Core.setModel(oModel,"oModelGlobal");
             }
         });
     }

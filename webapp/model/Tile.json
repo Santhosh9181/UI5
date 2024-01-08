@@ -2,12 +2,24 @@
     {   "id": "idTile1",
         "Header": "Table Example",
         "Subheader": "WCSchedule 2023",
-        "Icon": "sap-icon://competitor"
+        "Icon": "sap-icon://competitor",
+        "Unit": "2023",
+        "Footer": "Cricket"
     },
     {   
         "id": "idTile2",
         "Header": "WCSchedule 2023",
         "Subheader": "WCSchedule 2023",
-        "Icon": ""
+        "Icon": "",
+        "Unit": "2023",
+        "Footer": ""
+    },
+    {
+        "id": "idTile3",
+        "Header": "Pro Kabbadi",
+        "Subheader": "Booking",
+        "Icon": "",
+        "Unit": "2023",
+        "Footer": "Kabbadi"
     }
 ]}

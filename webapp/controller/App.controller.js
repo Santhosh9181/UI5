@@ -1,12 +1,11 @@
 sap.ui.define(
     [
         "sap/ui/model/json/JSONModel",
-        "sap/ui/core/Core",
         "samplebasics/formatter/formatter",
         "samplebasics/controller/BaseController"
 
     ],
-    function(JSONModel,Core,formatter,BaseController) {
+    function(JSONModel,formatter,BaseController) {
       "use strict";
   
       return BaseController.extend("samplebasics.controller.App", {
@@ -18,26 +17,14 @@ sap.ui.define(
                    "edit": false,
                    "currentDate": '' };
           
-          // this.getView().setModel( new JSONModel(i),"title");
           var wcschedule = new JSONModel("../model/WCSchedule.json");
           this.getView().setModel(wcschedule);
 
           this.getView().setModel( new JSONModel(i),"title");
-          var global = Core.getModel("oModelGlobal");
-          // alert("App");
         },
         onPressHome: function(){
           this.returnHome();
         }
-        // BaseController: BaseController
-        // function(){
-        //   var that = this;
-        //   BaseController.returnHome();
-        // } 
-        // function() {
-        //   this.getOwnerComponent().getRouter().navTo("RouteTile");
-
-        // }
       });
     }
   );

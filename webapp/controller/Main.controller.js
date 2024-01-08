@@ -1,13 +1,10 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
+    "samplebasics/controller/BaseController"
 ],
-    /**
-     * @param {typeof sap.ui.core.mvc.Controller} Controller
-     */
-    function (Controller) {
+    function (BaseController) {
         "use strict";
 
-        return Controller.extend("samplebasics.controller.Main", {
+        return BaseController.extend("samplebasics.controller.Main", {
             onInit: function () {
 
             }
