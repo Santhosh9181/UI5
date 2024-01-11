@@ -24,6 +24,15 @@ sap.ui.define(
         },
         onPressHome: function(){
           this.returnHome();
+        },
+        onItemSelected: function(event){
+          var spath = event.getSource().getBinding().getPath();
+          var data = event.getSource().getBinding().oList[1];
+          var oItemForm = this.byId("_IDGenSimpleForm1");
+          oItemForm.bindElement(event.mParameters.rowContext.sPath);
+          // oItemForm.bindProperty("value" , "Date")
+          // oItemForm.bindProperty("value" , "TeamA")
+          // alert("Hello");
         }
       });
     }

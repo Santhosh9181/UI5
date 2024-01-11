@@ -7,7 +7,7 @@
 	height="100%">
     <Page id="page" title="Booking">
     <headerContent>
-    <Title id="HeaderTitle" text="Booking" textDirection="LTR" ></Title>
+    <!-- <Title id="HeaderTitle" text="Booking" textDirection="LTR" ></Title> -->
     </headerContent>
     <content>
     <HBox id="MainBox" height="100%" width="100%" class="sapUiTinyMarginBegin sapUiTinyMarginEnd">
