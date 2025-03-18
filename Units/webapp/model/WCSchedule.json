@@ -1,0 +1,338 @@
+{ "Schedule": [
+    {
+        "Date": "Oct 05, 2023",
+        "TeamA": "England",
+        "TeamB": "New Zealand",
+        "Venue": "Narendra Modi Stadium, Ahmedabad",
+        "TimeIST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 06, 2023",
+        "TeamA": "Pakistan",
+        "TeamB": "Netherland",
+        "Venue": "Rajiv Gandhi International Stadium, Hyderabad",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 07, 2023",
+        "TeamA": "Bangladesh",
+        "TeamB": "Afghanistan",
+        "Venue": "Himachal Pradesh Cricket Association Stadium",
+        "Time IST": "10:30 A.M"
+    },
+    {
+        "Date": "Oct 07, 2023",
+        "TeamA": "South Africa",
+        "TeamB": "Sri Lanka",
+        "Venue": "Arun Jaitley Stadium, Delhi",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 08, 2023",
+        "TeamA": "India",
+        "TeamB": "Australia",
+        "Venue": "Chidambaram, Chennai",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 09, 2023",
+        "TeamA": "New Zealand",
+        "TeamB": "Netherland",
+        "Venue": "Rajiv Gandhi International Stadium, Hyderabad",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 05, 2023",
+        "TeamA": "England",
+        "TeamB": "Bangladesh",
+        "Venue": "Himachal Pradesh Cricket Association Stadium",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 11, 2023",
+        "TeamA": "India",
+        "TeamB": "Afghanistan",
+        "Venue": "Arun Jaitley Stadium, Delhi",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 12, 2023",
+        "TeamA": "Pakistan",
+        "TeamB": "Sri Lanka",
+        "Venue": "Rajiv Gandhi International Stadium, Hyderabad",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 13, 2023",
+        "TeamA": "Australia",
+        "TeamB": "South Africa",
+        "Venue": "Bharat Ratna Shri Atal Bihari Vajpai Ekana Cricket Stadium, Lucknow",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 14, 2023",
+        "TeamA": "New Zealand",
+        "TeamB": "Bangladesh",
+        "Venue": "Chidambaram, Chennai",
+        "Time IST": "10:30 A.M"
+    },
+    {
+        "Date": "Oct 14, 2023",
+        "TeamA": "England",
+        "TeamB": "Afghanistan",
+        "Venue": "Arun Jaitley Stadium, Delhi",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 15, 2023",
+        "TeamA": "India",
+        "TeamB": "Pakistan",
+        "Venue": "Narendra Modi Stadium, Ahmedabad",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 16, 2023",
+        "TeamA": "Australia",
+        "TeamB": "Sri Lanka",
+        "Venue": "Bharat Ratna Shri Atal Bihari Vajpai Ekana Cricket Stadium, Lucknow",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 17, 2023",
+        "TeamA": "South Africa",
+        "TeamB": "Netherland",
+        "Venue": "Himachal Pradesh Cricket Association Stadium",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 18, 2023",
+        "TeamA": "New Zealand",
+        "TeamB": "Afghanistan",
+        "Venue": "Chidambaram, Chennai",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 19, 2023",
+        "TeamA": "India",
+        "TeamB": "Bangladesh",
+        "Venue": "Maharashtra Cricket Association Stadium, Gahunje",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 20, 2023",
+        "TeamA": "Australia",
+        "TeamB": "Pakistan",
+        "Venue": "M. Chinnaswamy Stadium, Bengaluru",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date":  "Oct 21, 2023",
+        "TeamA": "Netherland",
+        "TeamB": "Sri Lanka",
+        "Venue": "Bharat Ratna Shri Atal Bihari Vajpai Ekana Cricket Stadium, Lucknow",
+        "Time IST": "10:30 A.M"
+    },
+    {
+        "Date":  "Oct 21, 2023",
+        "TeamA": "England",
+        "TeamB": "South Africa",
+        "Venue": "Wankhede Stadium, Mumbai",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 22, 2023",
+        "TeamA": "India",
+        "TeamB": "New Zealand",
+        "Venue": "Himachal Pradesh Cricket Association Stadium",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 23, 2023",
+        "TeamA": "Pakistan",
+        "TeamB": "Afghanistan",
+        "Venue": "Chidambaram, Chennai",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 24, 2023",
+        "TeamA": "South Africa",
+        "TeamB": "Bangladesh",
+        "Venue": "Wankhede Stadium, Mumbai",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 25, 2023",
+        "TeamA": "Australia",
+        "TeamB": "Netherland",
+        "Venue": "Arun Jaitley Stadium, Delhi",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 26, 2023",
+        "TeamA": "England",
+        "TeamB": "Afghanistan",
+        "Venue": "M. Chinnaswamy Stadium, Bengaluru",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 27, 2023",
+        "TeamA": "Pakistan",
+        "TeamB": "South Africa",
+        "Venue": "Bharat Ratna Shri Atal Bihari Vajpai Ekana Cricket Stadium, Lucknow",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 28, 2023",
+        "TeamA": "Australia",
+        "TeamB": "New Zealand",
+        "Venue": "Himachal Pradesh Cricket Association Stadium",
+        "Time IST": "10:30 A.M"
+    },
+    {
+        "Date": "Oct 28, 2023",
+        "TeamA": "Netherland",
+        "TeamB": "Bangladesh",
+        "Venue": "Eden Gardens, Kolkata",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 29, 2023",
+        "TeamA": "India",
+        "TeamB": "England",
+        "Venue": "Bharat Ratna Shri Atal Bihari Vajpai Ekana Cricket Stadium, Lucknow",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 30, 2023",
+        "TeamA": "Afghanistan",
+        "TeamB": "Sri Lanka",
+        "Venue": "Maharashtra Cricket Association Stadium, Gahunje",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Oct 31, 2023",
+        "TeamA": "Pakistan",
+        "TeamB": "Bangladesh",
+        "Venue": "Eden Gardens, Kolkata",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 01, 2023",
+        "TeamA": "New Zealand",
+        "TeamB": "South Africa",
+        "Venue": "Maharashtra Cricket Association Stadium, Gahunje",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 02, 2023",
+        "TeamA": "India",
+        "TeamB": "Sri Lanka",
+        "Venue": "Wankhede Stadium, Mumbai",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 03, 2023",
+        "TeamA": "Netherland",
+        "TeamB": "Afghanistan",
+        "Venue": "Bharat Ratna Shri Atal Bihari Vajpai Ekana Cricket Stadium, Lucknow",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 04, 2023",
+        "TeamA": "New Zealand",
+        "TeamB": "Pakistan",
+        "Venue": "M. Chinnaswamy Stadium, Bengaluru",
+        "Time IST": "10:30 A.M"
+    },
+    {
+        "Date": "Nov 04, 2023",
+        "TeamA": "England",
+        "TeamB": "Australia",
+        "Venue": "Narendra Modi Stadium, Ahmedabad",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 05, 2023",
+        "TeamA": "India",
+        "TeamB": "South Africa",
+        "Venue": "Eden Gardens, Kolkata",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 06, 2023",
+        "TeamA": "Bangladesh",
+        "TeamB": "Sri Lanka",
+        "Venue": "Arun Jaitley Stadium, Delhi",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 07, 2023",
+        "TeamA": "Australia",
+        "TeamB": "Afghanistan",
+        "Venue": "Wankhede Stadium, Mumbai",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 08, 2023",
+        "TeamA": "England",
+        "TeamB": "Netherland",
+        "Venue": "Maharashtra Cricket Association Stadium, Gahunje",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 09, 2023",
+        "TeamA": "New Zealand",
+        "TeamB": "Sri Lanka",
+        "Venue": "M. Chinnaswamy Stadium, Bengaluru",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 10, 2023",
+        "TeamA": "South Africa",
+        "TeamB": "Afghanistan",
+        "Venue": "Narendra Modi Stadium, Ahmedabad",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 11, 2023",
+        "TeamA": "India",
+        "TeamB": "Netherland",
+        "Venue": "M. Chinnaswamy Stadium, Bengaluru",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 12, 2023",
+        "TeamA": "Australia",
+        "TeamB": "Bangladesh",
+        "Venue": "Maharashtra Cricket Association Stadium, Gahunje",
+        "Time IST": "10:30 A.M"
+    },
+    {
+        "Date": "Nov 12, 2023",
+        "TeamA": "England",
+        "TeamB": "Pakistan",
+        "Venue": "Eden Gardens, Kolkata",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 15, 2023",
+        "TeamA": "1st Place",
+        "TeamB": "4th Place",
+        "Venue": "Wankhede Stadium, Mumbai",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 16, 2023",
+        "TeamA": "2nd Place",
+        "TeamB": "3rd Place",
+        "Venue": "Eden Gardens, Kolkata",
+        "Time IST": "2:00 P.M"
+    },
+    {
+        "Date": "Nov 19, 2023",
+        "TeamA": "Winner of Semi- Final 1",
+        "TeamB": "Winner of Semi- Final 2",
+        "Venue": "Narendra Modi Stadium, Ahmedabad",
+        "Time IST": "2:00 P.M"
+    }
+] }

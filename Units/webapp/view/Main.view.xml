@@ -1,0 +1,10 @@
+<mvc:View xmlns:smarttable="sap.ui.comp.smarttable" controllerName="samplebasics.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+	xmlns:tnt="sap.tnt"
+	height="100%">
+    <Page id="page" title="{i18n>title}">
+    <smarttable:SmartTable id="idProduct" >
+    </smarttable:SmartTable>
+    </Page>
+</mvc:View>
